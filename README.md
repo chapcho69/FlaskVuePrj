@@ -18,8 +18,8 @@ vue create frontend
 cd frontend 
 npm install 
 # Vue 앱에 따라 필요한 의존성 설치
-npm install --save axios 
-npm install --save bootstrap 
-npm install --save bootstrap-vue 
-npm install --save @babel/eslint-parser 
-npm run serve (dev는 추가 구성 필요) 
+npm install --save axios   
+npm install --save bootstrap  
+npm install --save bootstrap-vue  
+npm install --save @babel/eslint-parser   
+npm run serve (dev는 추가 구성 필요)   
