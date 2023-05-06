@@ -37,3 +37,7 @@ module.exports = {
 	NODE_ENV: '"production"',  
 	BASE_URL: '"/baseurlname/"'  
 }
+
+## Branch를 생성하고 해당 branch에서 수정  
+git branch [branchName]  
+git switch [branchName]  
