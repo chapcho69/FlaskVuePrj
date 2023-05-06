@@ -18,13 +18,14 @@ sudo npm install -g @vue/cli-init
 # frontend 디렉토리 생성  
 vue create frontend   
 cd frontend   
-npm install   
+npm install  ## 새로운 프로젝트를 생성한다.   
 # Vue 앱에 따라 필요한 의존성 설치  
 npm install --save axios   
 npm install --save bootstrap  
 npm install --save bootstrap-vue  
 npm install --save @babel/eslint-parser   
 npm run serve (dev는 추가 구성 필요)   
+npm run build (dist경로에 배포판을 만든다.)  
 
 # 실제 서비스 배포를 위한 설정 분리 작업  
 backend의 URL prefix가 별도로 지정되는 경우에는 BASE_URL 항목을 반드시 설정해야 한다.  
