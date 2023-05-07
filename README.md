@@ -14,6 +14,7 @@ frontend (Vue앱)
 # 우선 OS에 vue cli를 전역 설치  
 sudo npm install -g @vue/cli  
 sudo npm install -g @vue/cli-init  
+npm install -g serve  
 
 # frontend 디렉토리 생성  
 vue create frontend   
