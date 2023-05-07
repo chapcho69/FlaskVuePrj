@@ -37,4 +37,13 @@ config/prod.env.js
 module.exports = {  
 	NODE_ENV: '"production"',  
 	BASE_URL: '"/baseurlname/"'  
-}
+}  
+
+## Flask 설치 및 Apache와의 연동  
+Flask 설치  
+pip install Flask  
+pip install Flask-Cors  
+
+mod-wsgi 설치  
+sudo apt install libapache2-mod-wsgi-py3  
+wsgi 란 Web Serve Gateway Interface를 의미하는데, apache등의 웹서버에서 Python applicaion을 서비스로 구동시킬수 있는 인터페이스이다.  
