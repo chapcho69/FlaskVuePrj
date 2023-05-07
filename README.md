@@ -47,3 +47,11 @@ pip install Flask-Cors
 mod-wsgi 설치  
 sudo apt install libapache2-mod-wsgi-py3  
 wsgi 란 Web Serve Gateway Interface를 의미하는데, apache등의 웹서버에서 Python applicaion을 서비스로 구동시킬수 있는 인터페이스이다.  
+
+[FAQ]
+[Vue.js] 'vue-cli-service'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다.
+
+3. node_module 폴더 삭제 후 재설치
+node_module 폴더를 삭제하고 아래 명령어로 다시 설치했더니 해결되었다.
+
+$ npm i
