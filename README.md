@@ -1,6 +1,7 @@
 # FlaskVuePrj
 Flask with Vuejs Test Project 2023.05 
 최초 구성은 아래 링크의 내용 참고함.  
+# 이 내용은 git switch main으로 이동하여 작성 후 Commit 함.
 https://wiki.terzeron.com/ko/Programming/Python/Flask%EC%99%80_Vue%EB%A1%9C_%EC%9B%B9%EC%84%9C%EB%B9%84%EC%8A%A4_%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0
 
 
