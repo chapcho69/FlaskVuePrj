@@ -12,7 +12,7 @@ pip install Flask
 curl localhost:5000   
 
 frontend (Vue앱)  
-# 우선 OS에 vue cli를 전역 설치  
+# OS에 vue cli를 전역 설치  
 sudo npm install -g @vue/cli  
 sudo npm install -g @vue/cli-init  
 npm install -g serve  
